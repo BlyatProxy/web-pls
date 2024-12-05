@@ -5,7 +5,10 @@ import Image from "next/image";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { LinkPreview } from "@/components/ui/link-preview";
 import { motion } from "framer-motion";
-export function HeroTitle() {
+import WordPullUp from "@/components/ui/word-pull-up";
+import { PinContainer } from "@/components/ui/3d-pin";
+
+function HeroTitle() {
   return (
     <div className="z-10 flex items-center justify-center w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="w-full p-6 sm:p-8 lg:p-10 rounded-3xl border-2 border-neutral-800/50 bg-gradient-to-br from-black/80 via-purple-900/30 to-black/80 backdrop-blur-sm relative overflow-hidden">
@@ -119,9 +122,7 @@ export function HeroTitle() {
   );
 }
 
-import WordPullUp from "@/components/ui/word-pull-up";
-
-export function WelcomeSection() {
+function WelcomeSection() {
   return (
     <div className="bg-gradient-to-b from-black via-gray-900 to-black">
       <ContainerScroll titleComponent={<HeroTitle />}>
@@ -139,8 +140,7 @@ export function WelcomeSection() {
   );
 }
 
-import { PinContainer } from "@/components/ui/3d-pin"
-export function Contributors() {
+function Contributors() {
   return (
     <div className="relative py-12 sm:py-20 overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -261,7 +261,7 @@ export function Contributors() {
   );
 }
 
-export default function HomePage() {
+export default function Page() {
   return (
     <div className="flex flex-col overflow-hidden bg-black">
       <WelcomeSection />
