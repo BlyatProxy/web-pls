@@ -174,9 +174,11 @@ export function Contributors() {
             containerClassName="h-[400px]"
           >
             <div className="flex flex-col p-4 w-[300px]">
-              <img
+              <Image
                 src="/dennz.png"
                 alt="Dennz"
+                width={300}
+                height={300}
                 className="w-full aspect-square mb-4 rounded-xl"
               />
               <h3 className="text-2xl font-bold text-white mb-2">
@@ -194,9 +196,11 @@ export function Contributors() {
             containerClassName="h-[400px]"
           >
             <div className="flex flex-col p-4 w-[300px]">
-              <img
+              <Image
                 src="/vanitas.png"
                 alt="vanitas"
+                width={300}
+                height={300}
                 className="w-full aspect-square mb-4 rounded-xl"
               />
               <h3 className="text-2xl font-bold text-white mb-2">
@@ -214,9 +218,11 @@ export function Contributors() {
             containerClassName="h-[400px]"
           >
             <div className="flex flex-col p-4 w-[300px]">
-              <img
+              <Image
                 src="/flint.png"
                 alt="Flintt"
+                width={300}
+                height={300}
                 className="w-full aspect-square mb-4 rounded-xl"
               />
               <h3 className="text-2xl font-bold text-white mb-2">
@@ -234,9 +240,11 @@ export function Contributors() {
             containerClassName="h-[400px]"
           >
             <div className="flex flex-col p-4 w-[300px]">
-              <img
+              <Image
                 src="/ana.png"
                 alt="Ana"
+                width={300}
+                height={300}
                 className="w-full aspect-square mb-4 rounded-xl"
               />
               <h3 className="text-2xl font-bold text-white mb-2">
